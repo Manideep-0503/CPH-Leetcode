@@ -3,63 +3,40 @@
 A CPH (Competitive Programmer Helper) Vscode Extension tailored for Leetcode.
 
 ## Features
+1. Easily fetching test cases using `Fetch Test Cases`.
+2. User friendly UI 
+3. User Can add using `Add Test Case` and delete the same by `Delete Test Case`.
+4. Clearly showing Test verdicts by `Run Test Cases`.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Running the Extension
 
-## Requirements
+### 1. Clone the Repository 
+Run the following command to clone the repository:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+```bash
+git clone https://github.com/Manideep-0503/CPH-Leetcode.git
+```
+### 2. Requirements
 
-## Extension Settings
+1. Install **Node.js** (includes npm) from [Node.js official site](https://nodejs.org/).
+2. Run the following command to install the required dependencies:
+  ```bash
+    npm install
+  ```
+  ```bash
+    npm install node-fetch cheerio
+  ```   
+3. Optional: Install the VS Code Extension Development Kit:
+  ```bash
+   npm install -g yo generator-code
+  ```  
+### 3. Navigate to extension.js
+   `F5` to start debugging
+   click `ctrl + shift + P` to open command palatte to run Commands.
+   #### Commands Included
+  1. Fetch Test Cases
+  2. Run Test Cases
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
