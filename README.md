@@ -1,6 +1,6 @@
 # cph-extension-for-leetcode README
 
-This is the README for your extension "cph-extension-for-leetcode". After writing up a brief description, we recommend including the following sections.
+A CPH (Competitive Programmer Helper) Vscode Extension tailored for Leetcode.
 
 ## Features
 
